@@ -9,6 +9,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Marquee from './components/Marquee';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <AnimatedCursor />
         <Navbar />
         <Hero />
+        <Marquee />
         <About />
         <Experience />
         <Projects />
